@@ -1,0 +1,189 @@
+
+*{
+	margin: 0px;
+	padding: 0ex;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container{
+	width: 980px;
+	margin: auto;
+}
+
+
+.conten{
+	width: 980px;
+	margin: auto;
+}
+.facebook{
+	background-color: #f0f2f5;
+	padding: 45px 0px;
+
+}
+.facebook .facebook-left{
+	width: 65%;
+	float: left;
+
+}
+
+.facebook .facebook-right{
+	width: 35%;
+	float: left;
+}
+.facebook:after{
+	clear: both;
+	display: block;
+	content: "";
+}
+.facebook .facebook-left img{
+ width: 300px;
+ transform: translate(-27px, 15px);
+
+}
+.facebook .facebook-left h2{
+	font-family: tahoma;
+	font-weight: normal;
+	font-size: 29px;
+	width: 80%;
+}
+.facebook .facebook-right .login-ariya {
+	background-color: white;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,.1),4px 8px 16px rgba(0,0,0,.1);
+}
+.facebook .facebook-right .login-ariya input {
+	display: block;
+	border: .6px solid #dddfe2;
+	padding: 15px;
+	font-size: 17px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	outline-color:  #1877f2;
+	
+}
+
+hr{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid lightgray;
+
+}
+
+
+
+.facebook .facebook-right .login-ariya input[type="submit"]{
+	background-color: #1877f2;
+	border: 1px solid #1877f2;
+	font-family: tahama;
+	color: #fff;
+	font-weight: bold;
+}
+.facebook .facebook-right .login-ariya a:nth-child(2){
+	display: table;
+	margin: auto;
+	font-family: tahoma;
+	font-size: 14px;
+	color: #1887f2;
+
+ 
+}
+.l{
+	margin:  10px auto;
+	display: table;
+	 color: #1877f2;
+}
+.l:hover{
+	text-decoration: underline;
+}
+.g{
+	margin: 15px auto;
+	display: table;
+	background-color:#36a420 ;
+	padding: 15px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+
+}
+.g:hover{
+	background-color:   #00a400;
+}
+p{
+	margin: 20px auto;
+	text-align: center;
+}
+.j{
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: tahoma;
+	
+}
+.j:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+.facebook-area{
+	background-color: white;
+}
+
+.facebook-top {
+	border-bottom: 1px solid #8a8d91;
+}
+
+.facebook-top ul li{
+	display: inline-block;
+	
+
+}
+
+.facebook-top ul li a{
+	color: #8a8d91;	
+	font-size: 14px;
+	padding: 20px 5px;
+	display: inline-block;
+}
+.facebook-top ul li a:hover{
+	text-decoration: underline;
+}
+
+.facebook-maddle ul li{
+	display: inline-block;
+	
+
+}
+.facebook-maddle ul li a{
+	color: #8a8d91;	
+	font-size: 14px;
+	padding:5px;
+	display: inline-block;
+}
+.facebook-maddle ul li a:hover{
+	text-decoration: underline;
+}
+.facebook-bottom p{
+	margin-top: 7px;
+	margin-left: 5px;
+	font-size: 11px;
+	color: #737373;
+	text-align: left;
+}
+
+
